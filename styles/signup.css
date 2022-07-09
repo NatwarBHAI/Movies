@@ -1,0 +1,52 @@
+#signup-form-div{
+    width: 30%;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    text-align: center;
+    font-family: sans-serif;
+    color: blue;
+    height: 70vh;
+    padding: 10px;
+}
+h1{
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+form{
+    display: grid;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: auto;
+    row-gap: 20px;
+}
+input{
+    height: 25px;
+}
+button{
+    width: 40%;
+    height: 40px;
+    cursor: pointer;
+    margin: auto;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    background-color: cadetblue;
+}
+button:hover{
+    background-color: teal;
+}
+.anchor{
+    text-decoration: none;
+    color: white;
+}
+
+@media all and (min-width:320px) and (max-width:480px){
+    #signup-form-div{
+        width: 70%;
+        height: auto;
+        padding: 20px;
+    }
+}
